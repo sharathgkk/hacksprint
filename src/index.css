@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #06131e;
+    color: #f1f5f9;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+.clinical-grid {
+  background-image: radial-gradient(rgba(20, 184, 166, 0.08) 1px, transparent 1px), radial-gradient(rgba(14, 165, 233, 0.04) 1px, transparent 1px);
+  background-size: 32px 32px, 16px 16px;
+  background-position: 0 0, 16px 16px;
+}
+
+.clinical-glass {
+  background: rgba(10, 25, 41, 0.75);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(20, 184, 166, 0.15);
+}
+
+/* Custom scrollbars for data tables and logs */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #091a29;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e3a52;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #14b8a6;
+}

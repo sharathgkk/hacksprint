@@ -1,0 +1,6 @@
+{
+  "name": "ClaimGuard Clinical",
+  "description": "Healthcare Claims Anomaly Detection, Hospital Review & Transparent Pricing Tiers System with Government vs Private Classification, Multi-layer ML Scoring, and Provider Portal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
